@@ -19,7 +19,7 @@ const App = () => {
         {dark ? '☀️' : '🌙'}
       </button>
       <h1>Smart Dashboard</h1>
-      <Card title="Bitcoin Price (USD)" value={btc ? `$${btc}` : 'Loading...'} />
+      <Card title="Bitcoin Price (USD)" value={btc !== null ? `$${btc}` : 'Loading...'} />
     </div>
   );
 };
