@@ -1,2 +1,38 @@
-# smart-dashboard
-A simple React dashboard with API data and dark mode
+# 📊 Smart Dashboard
+
+A clean and responsive React dashboard that fetches live Bitcoin price data from an API.  
+Includes Dark Mode toggle and card-based layout.
+
+---
+
+## 🚀 Features
+
+- ⚡ Fast and lightweight
+- 🌙 Dark Mode toggle
+- 📡 Live data via public API
+- 💡 Easy to customize components
+- 📱 Mobile responsive
+
+---
+
+## 🛠 Built With
+
+- React (Vite)
+- Fetch API
+- Custom CSS (no frameworks)
+
+---
+
+## ▶️ Live Demo
+
+Coming soon…
+
+---
+
+## 📦 Getting Started (Local)
+
+```bash
+git clone https://github.com/gricciardi/smart-dashboard.git
+cd smart-dashboard
+npm install
+npm run dev
