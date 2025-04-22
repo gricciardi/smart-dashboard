@@ -25,7 +25,9 @@ Includes Dark Mode toggle and card-based layout.
 
 ## ▶️ Live Demo
 
-Coming soon…
+🌍 [Open live version](https://dein-netlify-link.netlify.app)
+
+![Dashboard Screenshot](./smart-dashboard.png)
 
 ---
 
