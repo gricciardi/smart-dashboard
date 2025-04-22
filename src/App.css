@@ -34,3 +34,13 @@ body {
   max-width: 400px;
   border-radius: 10px;
   box-shadow: 0 4px 16px rgba(0,
+
+.dark .card {
+  background: #333;
+  color: white;
+}
+
+.dark .card h2,
+.dark .card p {
+  color: white;
+}
