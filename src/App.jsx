@@ -7,10 +7,11 @@ const App = () => {
   const [dark, setDark] = useState(false);
 
   useEffect(() => {
-    fetch('https://api.coindesk.com/v1/bpi/currentprice/BTC.json')
-      .then(res => res.json())
-      .then(data => setBtc(data.bpi.USD.rate));
-  }, []);
+  fetch('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd')
+    .then(res => res.json())
+    .then(data => setBtc(data.bitcoin.usd.toLocaleString()));
+}, []);
+
 
   return (
     <div className={dark ? 'app dark' : 'app'}>
