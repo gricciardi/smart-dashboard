@@ -33,14 +33,17 @@ body {
   padding: 30px;
   max-width: 400px;
   border-radius: 10px;
-  box-shadow: 0 4px 16px rgba(0,
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+.card h2,
+.card p {
+  color: inherit;
+}
 
 .dark .card {
   background: #333;
   color: white;
 }
 
-.dark .card h2,
-.dark .card p {
-  color: white;
-}
